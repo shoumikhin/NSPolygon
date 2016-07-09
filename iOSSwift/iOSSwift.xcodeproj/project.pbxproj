@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		035AB5611D2FFC7F00788D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035AB55F1D2FFC7F00788D34 /* InfoPlist.strings */; };
-		035AB56A1D2FFD0C00788D34 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035AB5681D2FFD0C00788D34 /* Localization.strings */; };
+		035AB56A1D2FFD0C00788D34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035AB5681D2FFD0C00788D34 /* Localizable.strings */; };
 		03EFE2401CF5084C00361997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EFE23B1CF5084C00361997 /* Assets.xcassets */; };
 		03EFE2421CF5084C00361997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EFE23E1CF5084C00361997 /* AppDelegate.swift */; };
 		03EFE2431CF5084C00361997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03EFE23F1CF5084C00361997 /* ViewController.swift */; };
@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		035AB5601D2FFC7F00788D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		035AB5691D2FFD0C00788D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localization.strings; sourceTree = "<group>"; };
+		035AB5691D2FFD0C00788D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		03EFE2121CF505C500361997 /* iOSSwift Polygon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSSwift Polygon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EFE23B1CF5084C00361997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03EFE23C1CF5084C00361997 /* iOSSwift-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iOSSwift-Info.plist"; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 				03EFE23C1CF5084C00361997 /* iOSSwift-Info.plist */,
 				03EFE23B1CF5084C00361997 /* Assets.xcassets */,
 				035AB55F1D2FFC7F00788D34 /* InfoPlist.strings */,
-				035AB5681D2FFD0C00788D34 /* Localization.strings */,
+				035AB5681D2FFD0C00788D34 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03EFE2401CF5084C00361997 /* Assets.xcassets in Resources */,
-				035AB56A1D2FFD0C00788D34 /* Localization.strings in Resources */,
+				035AB56A1D2FFD0C00788D34 /* Localizable.strings in Resources */,
 				035AB5611D2FFC7F00788D34 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,12 +159,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		035AB5681D2FFD0C00788D34 /* Localization.strings */ = {
+		035AB5681D2FFD0C00788D34 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				035AB5691D2FFD0C00788D34 /* Base */,
 			);
-			name = Localization.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

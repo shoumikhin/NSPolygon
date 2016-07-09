@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		035AB5641D2FFC9300788D34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035AB5621D2FFC9300788D34 /* InfoPlist.strings */; };
-		035AB56D1D2FFD1700788D34 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035AB56B1D2FFD1700788D34 /* Localization.strings */; };
+		035AB56D1D2FFD1700788D34 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035AB56B1D2FFD1700788D34 /* Localizable.strings */; };
 		03EFE1C81CF5030E00361997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EFE1C01CF5030E00361997 /* Assets.xcassets */; };
 		03EFE1C91CF5030E00361997 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03EFE1C11CF5030E00361997 /* MainMenu.xib */; };
 		03EFE1CB1CF5030E00361997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EFE1C61CF5030E00361997 /* AppDelegate.m */; };
@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		035AB5631D2FFC9300788D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		035AB56C1D2FFD1700788D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localization.strings; sourceTree = "<group>"; };
+		035AB56C1D2FFD1700788D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		03EFE1AB1CF501E300361997 /* OSX Polygon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSX Polygon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EFE1C01CF5030E00361997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03EFE1C21CF5030E00361997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 				03EFE1C31CF5030E00361997 /* OSX-Info.plist */,
 				03EFE1C01CF5030E00361997 /* Assets.xcassets */,
 				035AB5621D2FFC9300788D34 /* InfoPlist.strings */,
-				035AB56B1D2FFD1700788D34 /* Localization.strings */,
+				035AB56B1D2FFD1700788D34 /* Localizable.strings */,
 				03EFE1C11CF5030E00361997 /* MainMenu.xib */,
 			);
 			path = Resources;
@@ -137,7 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03EFE1C81CF5030E00361997 /* Assets.xcassets in Resources */,
-				035AB56D1D2FFD1700788D34 /* Localization.strings in Resources */,
+				035AB56D1D2FFD1700788D34 /* Localizable.strings in Resources */,
 				035AB5641D2FFC9300788D34 /* InfoPlist.strings in Resources */,
 				03EFE1C91CF5030E00361997 /* MainMenu.xib in Resources */,
 			);
@@ -166,12 +166,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		035AB56B1D2FFD1700788D34 /* Localization.strings */ = {
+		035AB56B1D2FFD1700788D34 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				035AB56C1D2FFD1700788D34 /* Base */,
 			);
-			name = Localization.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		03EFE1C11CF5030E00361997 /* MainMenu.xib */ = {
