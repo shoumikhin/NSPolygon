@@ -2,12 +2,11 @@
 
 #include "../../C++/Headers/stl.h"
 
-int main(int argc, char const *argv[])
-{@autoreleasepool
-{
-    // Test area.
+int main(int argc, char const *argv[]) {
+@autoreleasepool {
 
-    [[NSRunLoop currentRunLoop] run];
+  // Test area.
 
-    return 0;
+  [[NSRunLoop currentRunLoop] run];
+  return 0;
 }}

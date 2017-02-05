@@ -2,11 +2,10 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+- (void)viewDidLoad {
+  [super viewDidLoad];
 
-    // Test area.
+  // Test area.
 }
 
 @end

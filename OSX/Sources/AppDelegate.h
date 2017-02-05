@@ -1,3 +1,2 @@
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
+@interface AppDelegate : NSObject<NSApplicationDelegate>
 @end

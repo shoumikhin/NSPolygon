@@ -2,9 +2,9 @@
 
 using namespace std;
 
-int main()
-{
-    // Test area.
+int main() {
 
-	return 0;
+  // Test area.
+
+  return 0;
 }

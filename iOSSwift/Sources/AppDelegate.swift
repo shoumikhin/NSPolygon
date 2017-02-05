@@ -1,15 +1,15 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate
-{
-    var window: UIWindow?
+class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool
-    {
-        // Test area.
+  var window: UIWindow?
 
-        return true
-    }
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+
+    // Test area.
+
+    return true
+  }
 }
-

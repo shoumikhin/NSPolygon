@@ -1,15 +1,17 @@
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+@interface AppDelegate()
 
 @property (weak) IBOutlet NSWindow *window;
+
 @end
 
 @implementation AppDelegate
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    // Test area.
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+
+  // Test area.
+
 }
 
 @end

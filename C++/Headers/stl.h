@@ -1,16 +1,16 @@
 #pragma once
 
+#include <algorithm>
 #include <iostream>
 #include <fstream>
-#include <sstream>
-#include <algorithm>
-#include <memory>
-#include <vector>
+#include <list>
 #include <map>
+#include <memory>
+#include <queue>
 #include <set>
+#include <sstream>
+#include <stack>
+#include <tuple>
 #include <unordered_map>
 #include <unordered_set>
-#include <stack>
-#include <queue>
-#include <list>
-#include <tuple>
+#include <vector>
